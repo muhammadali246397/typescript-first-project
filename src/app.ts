@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get('/', (req, res) => {
-  const a = 20;
-  res.send(a);
+ 
+  res.send('this is the servr');
 });
 export default app;
